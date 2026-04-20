@@ -95,7 +95,7 @@ Identifying plants in the wild using models trained on museum (herbarium) data i
 │   └── aligned_train_metadata.pkl    # Processed metadata
 ├── plant-species-classifier/         # App & Deployment Files
 └── README.md
-
+```
 ---
 
 *Developed for the Final Year Project at Swinburne University of Technology.*

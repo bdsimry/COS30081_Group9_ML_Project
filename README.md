@@ -97,5 +97,3 @@ Identifying plants in the wild using models trained on museum (herbarium) data i
 └── README.md
 ```
 ---
-
-*Developed for the Final Year Project at Swinburne University of Technology.*

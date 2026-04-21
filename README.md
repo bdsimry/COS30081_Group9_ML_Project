@@ -64,7 +64,7 @@ Identifying plants in the wild using models trained on museum (herbarium) data i
 
 <!-- TEAM SECTION -->
 ## 👥 Group 9 Members
-* **Brenda Ru Yi SIM** (102778817) - Pipeline Design & Multi-Task LoRA Implementation.
+* **Brenda Ru Yi SIM** (102778817) - Pipeline Design, Baseline 2 (DINOv2 + RF) & Multi-Task LoRA Implementation.
 * **Elaine Yung Hui HO** (102776251) - Baseline 1 (ResNet50) & Metric Learning Implementation.
 * **Li En CHAI** (104381372) - Baseline 2 (DINOv2 + SVM) Implementation.
 * **Shirleen Tsze Ting CHUO** (102776497) - Baseline 1 (EfficientNet) & GUI Development.

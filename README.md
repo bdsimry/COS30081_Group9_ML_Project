@@ -14,7 +14,7 @@ A deep learning framework designed to bridge the "Domain Gap" between dried herb
 ---
 
 <!-- THE CHALLENGE -->
-## ⚠️ The Domain Shift Challenge
+## The Domain Shift Challenge
 Identifying plants in the wild using models trained on museum (herbarium) data is difficult due to:
 1.  **Visual Discrepancy:** Dried, pressed brown plants vs. 3D, green, living plants.
 2.  **The Missing Pairs Problem:** 40% of the species in our dataset have abundant herbarium images but **zero** field photos for training.
@@ -23,13 +23,13 @@ Identifying plants in the wild using models trained on museum (herbarium) data i
 ---
 
 <!-- METHODOLOGY SECTION -->
-## 🧠 Proposed Architectures
+## Proposed Architectures
 
-### 🔹 Baseline Approaches
+### Baseline Approaches
 *   **Mix-Stream CNNs:** Direct training on a combined stream of herbarium and field images using **ResNet50** and **EfficientNetB3**.
 *   **Plant-Pretrained DINOv2:** Using frozen self-supervised features paired with classical classifiers (SVM/Random Forest).
 
-### 🚀 Our Innovations (New Approaches)
+### Our Innovations (New Approaches)
 *   **Approach A: Metric Learning (Geometric):** Uses **Triplet Margin Loss** with Semi-Hard Mining to force species into clusters based on structural geometry rather than color/texture.
 *   **Approach B: Multi-Task Learning (Semantic) [Winner]:** 
     *   **Shared Backbone:** DINOv2 (ViT-B/14) with **LoRA (Low-Rank Adaptation)** adapters.
@@ -39,7 +39,7 @@ Identifying plants in the wild using models trained on museum (herbarium) data i
 ---
 
 <!-- QUANTITATIVE RESULTS -->
-## 📊 Results & Performance
+## Results & Performance
 
 | Approach | Architecture / Method | Overall (%) | With Pairs (%) | Herbarium-Only (%) |
 | :--- | :--- | :--- | :--- | :--- |
@@ -53,7 +53,7 @@ Identifying plants in the wild using models trained on museum (herbarium) data i
 ---
 
 <!-- TECH STACK -->
-## 🛠️ Technical Stack
+## Technical Stack
 *   **Core:** Python 3.x, PyTorch
 *   **Models:** Timm (DINOv2, ResNet, EfficientNet)
 *   **Fine-Tuning:** PEFT (LoRA Injection)
@@ -63,7 +63,7 @@ Identifying plants in the wild using models trained on museum (herbarium) data i
 ---
 
 <!-- TEAM SECTION -->
-## 👥 Group 9 Members
+## Group 9 Members
 * **Brenda Ru Yi SIM** (102778817) - Pipeline Design, Baseline 2 (DINOv2 + RF) & Multi-Task LoRA Implementation.
 * **Elaine Yung Hui HO** (102776251) - Baseline 1 (ResNet50) & Metric Learning Implementation.
 * **Li En CHAI** (104381372) - Baseline 2 (DINOv2 + SVM) Implementation.
@@ -72,7 +72,7 @@ Identifying plants in the wild using models trained on museum (herbarium) data i
 ---
 
 <!-- REPOSITORY STRUCTURE -->
-## 📂 Repository Structure
+## Repository Structure
 ```text
 ├── Baseline1/
 │   ├── Baseline1_EfficientNet.ipynb
